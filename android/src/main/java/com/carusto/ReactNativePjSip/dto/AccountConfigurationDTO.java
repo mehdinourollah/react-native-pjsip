@@ -1,7 +1,7 @@
 package com.carusto.ReactNativePjSip.dto;
 
 import android.content.Intent;
-import android.support.annotation.Nullable;
+// import android.support.annotation.Nullable;
 
 import java.util.Map;
 
@@ -25,7 +25,7 @@ public class AccountConfigurationDTO {
 
     public String regServer;
 
-    @Nullable
+    // @Nullable
     public Integer regTimeout;
 
     public Map<String, String> regHeaders;
@@ -86,7 +86,7 @@ public class AccountConfigurationDTO {
         return regServer != null && regServer.length() > 0 ? regServer : "*";
     }
 
-    @Nullable
+    // @Nullable
     public Integer getRegTimeout() {
         return regTimeout;
     }
